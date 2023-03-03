@@ -6,7 +6,7 @@ int main(){
     getchar(); // Eliminar o enter após digitar
     
     printf("Digite sua altura em m \n"); // pede input de altura do usuario
-    scanf("%f", &altura); // o usuario digita o peso
+    scanf("%f", &altura); // o usuario digita a altura
     getchar(); // Eliminar o enter após digitar
 
     float imc = peso / (altura * altura); // calcula o imc com os valores digitados
